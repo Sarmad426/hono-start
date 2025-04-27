@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       hono:
-        specifier: ^4.4.2
+        specifier: ^4.7.7
         version: 4.7.7
     devDependencies:
       vercel:
-        specifier: ^32.4.1
+        specifier: ^32.7.2
         version: 32.7.2
 
 packages:
