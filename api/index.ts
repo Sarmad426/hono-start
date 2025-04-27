@@ -4,7 +4,7 @@ import { handle } from 'hono/vercel'
 const app = new Hono().basePath('/api')
 
 app.get('/', (c) => {
-  return c.json({ message: "Perfect!" })
+  return c.json({ message: "Hono API from Sarmad Rafique!" })
 })
 
 const handler = handle(app);
