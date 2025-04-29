@@ -2,7 +2,8 @@
   "type": "module",
   "scripts": {
     "start": "vercel dev",
-    "deploy": "vercel"
+    "deploy": "vercel",
+    "dev": "bun run --hot /api/hono-api.ts"
   },
   "dependencies": {
     "hono": "^4.7.7"
